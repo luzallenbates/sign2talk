@@ -1,0 +1,110 @@
+.container{
+    width: 100vw;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav{
+    height: 50px;
+    width: 100vw;
+    background-color: #110f2d;
+    display: flex;
+    justify-content: center;
+}
+.innav{
+    color: white;
+    display: flex;
+    width: 90vw;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: bolder;
+    justify-content:space-between;
+    align-items: center;
+}
+body{
+    margin: 0;
+    background-color: #18153d;
+}
+.textout{
+    height: 150px;
+    width: 300px;
+    background-color: #544F92;
+    position: absolute;
+    border-radius: 15px;
+    box-shadow:  0px 15px 10px rgba(0, 0, 0, 0.448);
+}
+.imageout{
+    height: 527px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+}
+.both .textout{
+    bottom: -40px;
+}
+.both{
+     height: 527px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.buttonscontainer{
+    height: 50px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.textout .buttonscontainer{
+    position: absolute;
+    bottom: -100px;
+}
+.button{
+    height: 90px;
+    width: 90px;
+    border-radius: 21px;
+    border: none;
+    background-color: #3d3a6e;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.299);
+}
+.button2{
+    height: 70px;
+    width: 70px;
+    border-radius: 21px;
+    border: none;
+    background-color: #3d3a6e;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.239);
+}
+.textout p{
+    display: flex;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.innertext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     height: 150px;
+    width: 300px;
+}
